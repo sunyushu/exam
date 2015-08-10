@@ -1,0 +1,6 @@
+运行步骤
+1、开始-->运行
+2、进入项目根目录文件，执行mvn compile编译包中的java文件
+3、编译完成后执行mvn exec:java -Dexec.mainClass="com.hand.Exam_1.App"命令
+
+编译将生成一个new_sample.pdf文件，用于接收从网上下载的pdf文件
